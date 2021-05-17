@@ -4,10 +4,10 @@
 
 	include 'connection_db.php';
 	//Isi variabel berikut ini berdasarkan nilai API Key, API Secret dan Access Token-nya
-	$twitterConsumerKey = 'KfJHgZeDBsegCvp6SKQhqfEc9';
-	$twitterConsumerSecret = 'SHDQcRLd4XuQe9Gz227BwLw7VVn9qMC5mZygRRBcYhfZtnYwn3';
-	$twitterAccessToken = '447808106-b3MXVuf5SzNMzoEkoeXS2uV028DecayQcbo1y9pc';
-	$twitterAccessTokenSecret = '6kGMVABP4rF1IzbMnuiqdzFi8CcGqKjxTzU0GEFVV1vpk';
+	$twitterConsumerKey = '';
+	$twitterConsumerSecret = '';
+	$twitterAccessToken = '';
+	$twitterAccessTokenSecret = '';
 	if (isset($_REQUEST['q'])) {
 	$q = trim($_REQUEST['q']);
 	} else {
